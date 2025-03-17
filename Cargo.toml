@@ -1,0 +1,13 @@
+[package]
+name = "svg2pdc"
+description = "Convert SVG to Pebble Draw Commands"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+byteorder = "1.5.0"
+clap = { version = "4.5.32", features = ["derive"] }
+roxmltree = "0.20.0"
+svgtypes = "0.15.3"
+thiserror = "2.0.12"
